@@ -7,14 +7,6 @@ Single page application (SPA) que tem por objetivo gerenciar o estoque de um alm
 
 ## Arquitetura da Aplicação     
 
-1. Tecnológias da Aplicação Front-End
-
-HTML (HyperText Markup Language): Estrutura e conteúdo da aplicação web. Define a estrutura das páginas e elementos, como cabeçalhos, parágrafos, formulários, etc.
-CSS (Cascading Style Sheets): Estilos e design da aplicação web. Controla a aparência dos elementos HTML, incluindo layout, cores, fontes, e responsividade.
-JavaScript: Interatividade e lógica de negócios do lado do cliente. Responde a eventos do usuário e faz chamadas assíncronas às APIs REST.
-
-2. Comunicação com APIs
- 
 Realiza fetches JavaScript para fazer solicitações HTTP (GET, POST, PUT, DELETE) para APIs REST externas e locais.
 
 API REST Externa: é implementada uma rota que faz um GET para buscar a cotação do dólar comercial através de uma API externa. Foi utilizada a seguinte API: https://v6.exchangerate-api.com. Chamada externa:

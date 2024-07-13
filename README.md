@@ -7,7 +7,7 @@ Single page application (SPA) que tem por objetivo gerenciar o estoque de um alm
 
 ## Arquitetura da Aplicação     
 
-Realiza fetches JavaScript para fazer solicitações HTTP (GET, POST, PUT, DELETE) para APIs REST externas e locais.
+Realiza fetches JavaScript para fazer solicitações HTTP (GET, POST, PUT, DELETE) para APIs REST externa e local.
 
 API REST Externa: é implementada uma rota que faz um GET para buscar a cotação do dólar comercial através de uma API externa. Foi utilizada a seguinte API: https://v6.exchangerate-api.com. Chamada externa:
 
